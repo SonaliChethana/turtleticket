@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.x.x/angular.min.js"></script>
+    <title>tickets</title>
+
+</head>
+
+<body>
+   <div class="stylepage">
+      <section class="headline">
+       <div class="feature-container">
+        <h1>Buy tickets</h1>
+       </div>
+       </section>
+       <div class="topnavbar">
+        <a href="https://sonalikodikara.github.io/hikkaduwa/index.html">Back to website</a>
+    </div>
+ <br>
+ <div class="container">
+    <form>
+        <legend>Your basic information</legend>
+        <h2>When do you plan to visit?</h2>
+      <div class="date">
+        <input type="date" id="date" name="date">
+      </div>
+     
+     <div class="guests">
+      <h2>Guests</h2>
+      <table id="guests"></table>
+     </div>
+     
+      <h2>Duration</h2>
+      <select id="duration" multiple>
+        <option value="07:00-08:00">07:00 am to 08:00 am</option>
+        <option value="08:00-09:00">08:00 am to 09:00 am</option>
+        <option value="09:00-10:00">09:00 am to 10:00 am</option>
+        <option value="10:00-11:00">10:00 am to 11:00 am</option>
+        <option value="11:00-12:00">11:00 am to 12:00 pm</option>
+        <option value="12:00-13:00">12:00 pm to 01:00 pm</option>
+        <option value="13:00-14:00">01:00 pm to 02:00 pm</option>
+        <option value="14:00-15:00">02:00 pm to 03:00 pm</option>
+        <option value="15:00-16:00">03:00 pm to 04:00 pm</option>
+        <option value="16:00-17:00">04:00 pm to 05:00 pm</option>
+        <option value="17:00-18:00">05:00 pm to 06:00 pm</option>
+      </select>
+    
+        <br><br>
+        <div class="price">
+            <h2>Price Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Charge per person(1H)</th>
+                        <th>Type</th>
+                        <th>Price(USD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Normal</td>
+                        <td>Foreigner Adult</td>
+                        <td>10 </td>
+                    </tr>
+                    <tr>
+                        <td>Peak</td>
+                        <td>Foreigner Adult</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Normal</td>
+                        <td>Foreigner Child</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Peak</td>
+                        <td>Foreigner Child</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Normal</td>
+                        <td>SL Adult</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Peak</td>
+                        <td>SL Adult</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Normal</td>
+                        <td>SL Child</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Peak</td>
+                        <td>SL Child</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>Infant(SL/Foreigner)</td>
+                        <td>0(under 4 years)</td>
+                    </tr>            
+                </tbody>
+            </table>
+        </div>
+        <br>  
+        <button id="ContinueBtn01"><a href="details.html"> Continue with purchase</a></button>
+    </form>
+    
+
+    <div class="summery">
+        <h2>Summary Table</h2>
+        <table id="summaryTable"></table>
+       </div>
+</div>   
+    <section class="footer">
+       <div class="social">
+           <h3>Support</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Reviews</a>
+        </div>
+        <div class="social">
+            <h3>Customer Care</h3>
+            <a href="#">Contact Us</a>
+            <a href="#">Feedback</a>
+        </div>
+        <div class="social">
+            <h3>About US</h3>
+            <a href="#">Destination</a>
+            <a href="#">Culture</a>
+            <a href="#">Experiences</a>
+        </div>    
+        <div class="social">
+            <h3>Follow US</h3>
+        <div class="social-icon">
+            <i class="fa fa-facebook-official" style="font-size:36px"></i>
+            <i class="fa fa-instagram" style="font-size:36px"></i>
+            <i class="fa fa-twitter" style="font-size:36px"></i>
+            <i class="fa fa-youtube-play" style="font-size:36px"></i>
+            <i class="fa fa-envelope" style="font-size:36px"></i>
+        </div>   
+        </div> 
+        <div class="copywrite">    
+        <p>Copyright &copy; 2023 | +94-0745862135</p>
+    </div>
+    </section>
+
+
+    <script src="tickets.js"></script>
+  </body>
+</html>
+
+
+
+
+

@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
+/* HEADINGS */
+
+h1, p {
+  color: #e2e9ec; /*Topic color*/
+  text-align: center;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Lato', sans-serif;
+}
+h2 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  font-family: sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+  color: #324245;
+}
+
+/* BASIC SETUP */
+
+.stylepage {
+  width: 100%;
+  height: auto;
+  background: url('https://images.unsplash.com/photo-1528283648649-33347faa5d9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+}
+
+
+/* NAVIGATION */
+.topnavbar {
+  overflow: hidden;
+  background-color: #333;
+  height: 60px;
+}
+
+.topnavbar a {
+  float: left;
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* SECTIONS */
+
+.headline {
+  width: 100%;
+  height: 50vh;
+  min-height: 200px;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('https://images.pexels.com/photos/14954699/pexels-photo-14954699/free-photo-of-long-exposure-photography-of-rocky-shore-during-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*section end*/
+
+/*guests*/
+.guests{
+  background: #e8eeef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #998f92;
+  margin-bottom: 20px;
+}
+.guests input{
+  max-width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #e8eeef;
+  border-radius: 5px;
+  font-size: 1.0em;
+  margin: 0 10px;
+}
+/*guests end*/
+
+
+/*Form start*/
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 10rem auto 0 auto;
+  max-width: 100%;
+}
+form {
+  max-width: 100%;
+  margin: 10px auto;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: #474a4a 1px solid;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+legend {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #174352;
+}
+
+input[type="date"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  max-width: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+ select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #df323d;
+  border-radius: 5px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  border: 1px solid #49575b;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+button a{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin: auto;
+  font-size: 1.5em;
+}
+/*Form end*/
+
+/*table*/
+.summery table {
+  border-collapse: collapse;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-right: 10em;
+  }
+  .summery h2{
+  text-align: center;
+  margin: 40px 0 0 0;
+  margin-right: 10em;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .sumeery th {
+  background: #ccc;
+  }
+  
+  .summery th, td {
+  border: 1px solid #5b5959;
+  padding: 8px;
+  }
+  
+  .summery tr:nth-child(even) {
+  background: #efefef;
+  }
+  
+  .summery tr:hover {
+  background: #cf8e8e;
+  }
+  /*table end*/
+
+
+/*table*/
+.price table {
+  border-collapse: collapse;
+  margin-top: auto;
+  max-width: 100%;
+}
+.price th {
+  background: #ccc;
+}
+.price h2{
+  color: #09373c;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price th, td {
+  border: 1px solid #383636;
+  padding: 8px;
+}
+.price tr:nth-child(even) {
+  background: #efefef;
+}
+.price tr:hover {
+  background: #809c9f;
+}
+/*table end*/
+
+/*footer*/
+
+section{
+padding: 55px 9% 50px;
+}
+.footer{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+background-color: rgb(48, 45, 45);
+margin-bottom: -175px;
+clear: both;
+margin-top: -5px;
+}
+#social{
+overflow: hidden;
+float: left;
+display: inline;
+width: auto;
+margin: 0 15px 15px 0;
+line-height: 1.6em;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.social h3{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(159, 186, 204);
+margin-left: 10px;
+margin-top: 20px;
+font-size: 1.6em;
+}
+.social a{
+display: block;
+color: rgb(102, 125, 131);  
+margin-left: 20px; 
+margin-top: 8px;
+}
+.social-icon i{
+margin-right: 10px;
+font-size: 2em;
+margin-left: 15px;
+margin-top: 10px;
+color: #4d7474;
+}
+.copywrite{
+margin: auto;
+max-width: 100%;
+text-align: center;
+margin-left: 180px;
+clear: both;
+color: aliceblue;
+line-height: 2em;
+padding: 40px 0 0 0;
+}
+/*footer end*/
